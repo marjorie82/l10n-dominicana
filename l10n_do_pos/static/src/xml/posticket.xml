@@ -12,12 +12,8 @@
                         <t t-esc="order.pos.company.name"/>
                         <br/>
                     </t>
-                    <t t-if="widget.pos.company.street">
                         <t t-esc="widget.pos.company.street"/>,
-                    </t>
-                    <t t-if="widget.pos.company.street2">
                         <t t-esc="widget.pos.company.street2"/>
-                    </t>
                     <t t-if="widget.pos.company.vat">
                         <br/>
                         <strong>RNC:</strong>
