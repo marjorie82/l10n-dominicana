@@ -12,6 +12,7 @@
                         <t t-esc="order.pos.company.name"/>
                         <br/>
                     </t>
+                    <span>zxc</span>
                         <t t-esc="widget.pos.company.street"/>,
                         <t t-esc="widget.pos.company.street2"/>
                     <t t-if="widget.pos.company.vat">
